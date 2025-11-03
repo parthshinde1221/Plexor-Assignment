@@ -207,7 +207,7 @@ ap.add_argument("--outdir", default="outputs")
 - **Validation split:** 30%.  
 - **Model:** YOLOv11s single-class (`person`).
 
-### 📊 Results Storage & Artifacts
+### Results Storage & Artifacts
 
 All training, validation, and inference outputs are organized as follows:
 
