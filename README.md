@@ -151,7 +151,7 @@ Run inference on a test video or image folder:
 python infer.py --source test\1720884888.mov
 ```
 
-To log output while showing it in console:
+To log output while showing it in console(Windows):
 ```powershell
 mkdir outputs -ErrorAction SilentlyContinue
 python infer.py --source test\1720884888.mov 2>&1 | Tee-Object -FilePath outputs\inference.log
