@@ -20,13 +20,13 @@ It was developed as part of the **Plexor Junior AI Engineer assessment**.
 
 ## Overview
 
-The goals of this assignment are to:
+In this assignment we:
 1. Label a dataset from provided retail surveillance videos.
 2. Train a **YOLOv11-S (small)** object detection model.
 3. Run inference on test clips and analyze performance.
 4. Document the process with clear setup, training, and results.
 
-The assignment focuses on **data labeling accuracy**, **training setup**, and **clarity of documentation**.
+This assignment focuses on **data labeling accuracy**, **training setup**, and **clarity of documentation**.
 
 > **Note:** Skip the Data Labeling section if you want to directly train or run inference using the provided dataset structure. The pre-labeled dataset is sufficient for training (`train.py`) or testing (`infer.py`).
 
