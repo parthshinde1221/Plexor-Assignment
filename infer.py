@@ -15,6 +15,8 @@ def main():
 
     # defaulit is again set to auto
     device = args.device if args.device != "auto" else ("0" if torch.cuda.is_available() else "cpu")
+
+    # create appropriate folder strucuture
     Path(args.outdir).mkdir(parents=True, exist_ok=True)
     
     # loads weights from the path specified 
