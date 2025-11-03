@@ -60,7 +60,7 @@ The assignment focuses on **data labeling accuracy**, **training setup**, and **
 4. **Install dependencies**
    ```bash
    pip install --upgrade pip setuptools wheel
-   pip install ultralytics opencv-python numpy
+   pip install ultralytics
    ```
 
 5. **Verify installation**
