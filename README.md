@@ -122,7 +122,7 @@ plexor_dataset/
 
 Run:
 ```bash
-python plexor_dataset/split_into_val.py --root plexor_dataset --val-ratio 0.3 --move
+python plexor_dataset/split_into_val.py --root plexor_dataset --val-ratio 0.3
 ```
 
 ---
