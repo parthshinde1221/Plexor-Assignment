@@ -93,15 +93,12 @@ Labeling was performed in **CVAT** using the following procedure:
 > Export only the annotated job to avoid empty labels from unlabeled frames.
 
 ### Frame Extraction (FFmpeg)
-Since the CVAT free tier does not allow direct frame export, frames were extracted using \textbf{FFmpeg}.
-
-
 ```bash
 winget install ffmpeg
 ffmpeg -i train_val.mp4 -vf "select=not(mod(n\,8))" -vsync vfr frame_%06d.jpg
 ```
 Run extraction inside your target images directory (e.g., `plexor_dataset/images/train/`).
-
+> Note - Used since the CVAT free tier does not allow direct frame export, frames were extracted using \textbf{FFmpeg}.
 ---
 
 ## Dataset Preparation & Split
